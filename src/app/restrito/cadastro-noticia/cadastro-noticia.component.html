@@ -1,0 +1,26 @@
+<main>
+        <h1>Cadastrar notícia</h1>
+        <section id="section-cadastro">
+                <form>
+                   
+                          <label for="foto">Imagem</label>
+                          <input type="text" class="form-control" name="foto" [(ngModel)]="noticia.image">
+
+                          <br>
+
+                          <label for="produto">Titulo da noticia</label>
+                          <input type="text" class="form-control" name="produto" [(ngModel)]="noticia.title">
+                         
+                          <br>
+                         
+                            <label for="preco">Descrição</label>
+                            <input type="text" class="form-control" name="preco" [(ngModel)]="noticia.body">
+                         
+                          <br>    
+                         
+                       
+                          <button type="button" class="btn btn-primary mb-3" (click)="cadastrar()">Cadastrar</button>
+                       
+                      </form>
+            </section>
+</main>

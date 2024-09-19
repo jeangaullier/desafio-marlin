@@ -1,0 +1,28 @@
+<main id="noticias" class="container">
+  <section class="container noticia" id="lista-noticias">
+      <mat-grid-list [cols]="cols">
+        <mat-grid-tile *ngFor="let noticia of noticias">
+  
+          <div id="card">
+            <img src="{{noticia.image}}" alt="{{noticia.title}}">
+            <div class="infor">
+              <h2>{{noticia.title}}</h2>
+              <p>{{(noticia.body| slice: 0:120)}}</p>
+              <a [routerLink]="['/inicio/noticia', noticia.id]">Ler mais</a>
+            </div>
+          </div>
+              <br/><br/>
+        </mat-grid-tile>
+      </mat-grid-list>
+    </section>
+    <div class="menu-lateral">
+      <h3>Cartegorias</h3>
+      <p>Lorem ipsum dolor</p>
+      <p>Lorem ipsum dolor</p>
+      <p>Lorem ipsum dolor</p>
+      <p>Lorem ipsum dolor</p>
+
+      <h3>Procurando por alguma notícia?</h3>
+      <input type="search" placeholder="Pesquisar por..">
+    </div>
+  </main>

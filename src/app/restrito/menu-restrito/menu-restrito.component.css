@@ -1,0 +1,15 @@
+#menu-restrito{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+#menu-restrito img{
+    width: 80px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

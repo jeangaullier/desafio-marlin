@@ -1,0 +1,11 @@
+<section id="noticia" class="container">
+  <div *ngIf="noticia" class="noticia">
+    <div>
+      <img src="{{noticia.image}}" alt="{{noticia.title}}">
+    </div>
+    <div>
+      <h1>{{ noticia.title }}</h1>
+      <p>{{ noticia.body }}</p>
+    </div>
+  </div>
+</section>

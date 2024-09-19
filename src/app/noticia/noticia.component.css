@@ -1,0 +1,22 @@
+.noticia{
+  display: flex;
+  height: 500px;
+  padding: 80px 0;
+}
+
+.noticia img{
+  width: 100%;
+}
+
+.noticia h1{
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.noticia div:nth-child(2){
+  margin-left: 40px;
+}
+
+.noticia p:nth-child(2){
+  margin-top: 20px;
+}

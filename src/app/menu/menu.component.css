@@ -1,0 +1,45 @@
+#menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+mat-toolbar{
+  background-color: rgb(69, 132, 214);
+}
+
+img{
+  width: 80px;  
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+  font-family: 'OpenSans-Medium';
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav{
+  display: flex;
+  gap: 30px;
+}
+
+#menu .menu-pesquisar{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+#menu .menu-pesquisar input{
+  border: 1px solid #2c2c2c;
+  border-radius: 0;
+  margin-right: 5px;
+  width: 220px;
+  height: 40px;
+}
+
+#menu .menu-pesquisar button{
+  height: 40px;
+  background-color: #fff;
+}

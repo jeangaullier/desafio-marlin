@@ -1,0 +1,14 @@
+<mat-toolbar color="primary">
+        <div class="container" style="padding: 20px 0;">
+            <nav style="display: flex; align-items: center; gap: 35px;" id="menu-restrito">
+                <div>
+                    <span><a routerLink="/restrito/lista">Listar notícias</a></span>
+                    <span style="margin-left: 20px;"><a routerLink="/restrito/cadastro">Cadastrar notícias</a></span>
+                </div>
+                <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon" (click)="logout()">
+                    <span class="material-icons">logout</span>
+                </button>
+            </nav>
+        </div>
+    </mat-toolbar>
+    

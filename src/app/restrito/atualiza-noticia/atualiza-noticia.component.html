@@ -1,0 +1,25 @@
+<main>
+    <h1>Atualiza notícia</h1>
+    <section id="section-cadastro">
+      <form *ngIf="noticia">
+        <label for="id">Id</label>
+        <input type="text" class="form-control" name="id" [(ngModel)]="noticia.id" readonly>
+  
+        <br>
+        <label for="titulo">Titulo da noticia</label>
+        <input type="text" class="form-control" name="titulo" [(ngModel)]="noticia.title">
+  
+        <br>
+        <label for="descricao">Descrição</label>
+        <input type="text" class="form-control" name="descricao" [(ngModel)]="noticia.body">
+  
+        <br>
+        <label for="foto">Foto</label>
+        <input type="text" class="form-control" name="foto" [(ngModel)]="noticia.image">
+  
+        <br>
+        <button type="submit" class="btn btn-primary mb-3" (click)="atualizar(noticia.id)">Atualizar</button>
+      </form>
+    </section>
+  </main>
+  
