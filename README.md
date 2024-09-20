@@ -45,7 +45,12 @@ Para **cadastrar** uma notícia basta clicar no link do menu _Inserir uma notíc
 
 Ao retornar, poderá listar todas as notícias e também utilizar os outros métodos `PUT e DELETE`
 
-| ![inicio](https://github.com/user-attachments/assets/219e77ac-3c17-4aae-89a7-51329bfd655c) | ![noticia](https://github.com/user-attachments/assets/e872b944-6f3c-4c8a-a90f-663c94ee6b4e) |
-|------------------------------|------------------------------|
-|![lista](https://github.com/user-attachments/assets/a6ba4176-a961-4039-8a28-abe663d96af9) | ![cadastro](https://github.com/user-attachments/assets/107eef47-6ba4-49bd-9c22-6228359191ec)  |
+| Página Inicial               | Página ao clicar em "Ler mais"|
+|------------------------------|-------------------------------|
+| ![inicio](https://github.com/user-attachments/assets/219e77ac-3c17-4aae-89a7-51329bfd655c) | ![noticia](https://github.com/user-attachments/assets/e872b944-6f3c-4c8a-a90f-663c94ee6b4e) 
+
+| Página listando todas as notícias               | Página de cadastro de notícia|
+|------------------------------|-------------------------------|
+|![lista](https://github.com/user-attachments/assets/a6ba4176-a961-4039-8a28-abe663d96af9) | ![cadastro](https://github.com/user-attachments/assets/107eef47-6ba4-49bd-9c22-6228359191ec)  |------------------------------|-------------------------------|
+
 
